@@ -1,0 +1,209 @@
+.li-ele {
+	list-style-type: none;
+	margin: 0px;
+	display: flex;
+}
+
+.checkbox-container {
+	/* width: 25px;
+	height: 25px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-checkbox {
+	width: 20px;
+	height: 20px;
+	margin: 0px;
+}
+
+.input-checkbox:hover {
+	width: 25px;
+	height: 25px;
+}
+
+.each-todo-main-container {
+	display: flex;
+	align-items: center;
+}
+
+.each-todo-container,
+.each-todo-container-hover,
+.editing-each-todo-container {
+	display: flex;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin: 10px 5px;
+	width: 265px;
+	align-items: center;
+	flex-grow: 1;
+	background-color: white;
+}
+
+.underline {
+	text-decoration: line-through;
+}
+
+.each-todo-container-hover:hover,
+.editing-each-todo-container {
+	box-shadow: 3px 5px 5px #888888;
+}
+
+.each-todo,
+.editing-todo-input,
+.each-todo-hover {
+	width: 250px;
+	font-size: 15px;
+	margin: 0px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.editing-todo-input {
+	border: none;
+	outline: none;
+}
+
+.done-btn,
+.edit-btn,
+.delete-btn {
+	outline: none;
+	border: 0px;
+	background-color: transparent;
+	padding: 0px;
+	cursor: pointer;
+	font-size: 20px;
+	margin: 0px;
+	padding-right: 10px;
+}
+
+.edit-btn {
+	display: none;
+}
+
+.each-todo-container-hover:hover .edit-btn {
+	display: flex;
+}
+
+.delete-btn {
+	width: 30px;
+	height: 30px;
+	margin-top: 4px;
+}
+
+.delete-icon {
+	width: 25px;
+	height: 25px;
+	color: grey;
+}
+
+.delete-icon:hover {
+	width: 30px;
+	height: 30px;
+}
+
+.yet-todo {
+	background-color: #ded9d7;
+}
+
+.in-progress {
+	background-color: #9d9deb;
+}
+
+.completed {
+	background-color: #b7f2ae;
+}
+
+.yet-todo-btn,
+.in-progress-btn,
+.completed-btn {
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+	outline: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	margin-right: 5px;
+	color: white;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.yet-todo-btn {
+	background-color: grey;
+}
+
+.in-progress-btn {
+	background-color: blue;
+}
+
+.completed-btn {
+	background-color: green;
+}
+
+.yet-todo-icon,
+.in-progress-icon,
+.completed-icon {
+	width: 15px;
+	height: 15px;
+}
+
+#popup-root {
+	background-color: #b7f2ae;
+}
+
+.popup-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+	background-color: white;
+	padding: 25px;
+	border-radius: 5px;
+}
+
+.popup-btns-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.popup-text {
+	font-size: 18px;
+	margin: 0px;
+	margin-bottom: 30px;
+}
+
+.popup-cancel-btn,
+.popup-yes-btn {
+	outline: none;
+	background-color: transparent;
+	border-radius: 5px;
+	padding: 10px;
+	width: 75px;
+	cursor: pointer;
+}
+
+.popup-cancel-btn {
+	background-color: black;
+	color: white;
+	margin-right: 20px;
+}
+
+.achieve-it-btn {
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.achieve-it-btn:hover {
+	color: blue;
+	border-color: blue;
+}
